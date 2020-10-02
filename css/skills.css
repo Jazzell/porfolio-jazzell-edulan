@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*Progress-80 Progress Bar*/
+#html .html-percentage {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: -15px;
+  font-weight: 100;
+}
+.html-bar {
+  height: 15px;
+  position: relative;
+  background-color: #c4c4c4;
+  margin: 20px auto;
+}
+#html-progress {
+  width: 80%;
+  animation: Animate-HTML 4s;
+  -webkit-animation: Animate-HTML 4s;
+  -moz-animation: Animate-HTML 4s;
+  -o-animation: Animate-HTML 4s;
+  height: 15px;
+  position: absolute;
+  background-color: #757171;
+}
+/*Progress-85 Progress Bar*/
+#progress-85 .progress-85-percentage {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: -15px;
+  font-weight: 100;
+}
+.progress-85-bar {
+  height: 15px;
+  position: relative;
+  background-color: #c4c4c4;
+  margin: 20px auto;
+}
+#progress-85-progress {
+  width: 85%;
+  animation: Animate-CSS 4s;
+  -webkit-animation: Animate-CSS 4s;
+  -moz-animation: Animate-CSS 4s;
+  -o-animation: Animate-CSS 4s;
+  height: 15px;
+  position: absolute;
+  background-color: #757171;
+}
+/*Progress-90 Progress Bar*/
+#progress-90 .progress-90-percentage {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: -15px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.progress-90-bar {
+  height: 15px;
+  position: relative;
+  background-color: #c4c4c4;
+  margin: 20px auto;
+}
+#progress-90-progress {
+  width: 90%;
+  animation: Animate-BOOTSTRAP 4s;
+  -webkit-animation: Animate-BOOTSTRAP 4s;
+  -moz-animation: Animate-BOOTSTRAP 4s;
+  -o-animation: Animate-BOOTSTRAP 4s;
+  height: 15px;
+  position: absolute;
+  background-color: #757171;
+}
+/*Progress-75 Progress Bar*/
+#progress-75 .progress-75-percentage {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: -15px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.progress-75-bar {
+  height: 15px;
+  position: relative;
+  background-color: #c4c4c4;
+  margin: 20px auto;
+}
+#progress-75-progress {
+  width: 75%;
+  animation: Animate-JAVASCRIPT 4s;
+  -webkit-animation: Animate-JAVASCRIPT 4s;
+  -moz-animation: Animate-JAVASCRIPT 4s;
+  -o-animation: Animate-JAVASCRIPT 4s;
+  height: 15px;
+  position: absolute;
+  background-color: #757171;
+}
+/*Progress 70 Progress Bar*/
+#progress-70 .progress-70-percentage {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: -15px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.progress-70-bar {
+  height: 15px;
+  position: relative;
+  background-color: #c4c4c4;
+  margin: 20px auto;
+}
+#progress-70-progress {
+  width: 70%;
+  animation: Animate-REACT 4s;
+  -webkit-animation: Animate-REACT 4s;
+  -moz-animation: Animate-REACT 4s;
+  -o-animation: Animate-REACT 4s;
+  height: 15px;
+  position: absolute;
+  background-color: #757171;
+}
+/*Hardwork Progress Bar*/
+#progress-95 .progress-95-percentage {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: -15px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.progress-95-bar {
+  height: 15px;
+  position: relative;
+  background-color: #c4c4c4;
+  margin: 20px auto;
+}
+#progress-95-progress {
+  width: 95%;
+  animation: Animate-PROGRESS-95 4s;
+  -webkit-animation: Animate-PROGRESS-95 4s;
+  -moz-animation: Animate-PROGRESS-95 4s;
+  -o-animation: Animate-PROGRESS-95 4s;
+  height: 15px;
+  position: absolute;
+  background-color: #757171;
+}
+/*Progress-60 Progress Bar*/
+#progress-60 .progress-60-percentage {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: -15px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.progress-60-bar {
+  height: 15px;
+  position: relative;
+  background-color: #c4c4c4;
+  margin: 20px auto;
+}
+#progress-60-progress {
+  width: 60%;
+  animation: Animate-PROGRESS-60 4s;
+  -webkit-animation: Animate-PROGRESS-60 4s;
+  -moz-animation: Animate-PROGRESS-60 4s;
+  -o-animation: Animate-PROGRESS-60 4s;
+  height: 15px;
+  position: absolute;
+  background-color: #757171;
+}
+/*HTML Keyframe*/
+@keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-webkit-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-moz-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-o-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+/*CSS Keyframe*/
+@keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 85%;
+  }
+}
+@-webkit-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 85%;
+  }
+}
+@-moz-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 85%;
+  }
+}
+@-o-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 85%;
+  }
+}
+/*Bootstrap Keyframe*/
+@keyframes Animate-BOOTSTRAP {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+@-webkit-keyframes Animate-BOOTSTRAP {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+@-moz-keyframes Animate-BOOTSTRAP {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+@-o-keyframes Animate-BOOTSTRAP {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+/*Javascript Keyframe*/
+@keyframes Animate-JAVASCRIPT {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 75%;
+  }
+}
+@-webkit-keyframes Animate-JAVASCRIPT {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 75%;
+  }
+}
+@-moz-keyframes Animate-JAVASCRIPT {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 75%;
+  }
+}
+@-o-keyframes Animate-JAVASCRIPT {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 75%;
+  }
+}
+/*React Keyframe*/
+@keyframes Animate-REACT {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-webkit-keyframes Animate-REACT {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-moz-keyframes Animate-REACT {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-o-keyframes Animate-REACT {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+/*Progress-95 Keyframe*/
+@keyframes Animate-PROGRESS-95 {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 95%;
+  }
+}
+@-webkit-keyframes Animate-PROGRESS-95 {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 95%;
+  }
+}
+@-moz-keyframes Animate-PROGRESS-95 {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 95%;
+  }
+}
+@-o-keyframes Animate-PROGRESS-95 {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 95%;
+  }
+}
+/*Progress-60 Keyframe*/
+@keyframes Animate-PROGRESS-60 {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%;
+  }
+}
+@-webkit-keyframes Animate-PROGRESS-60 {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%;
+  }
+}
+@-moz-keyframes Animate-PROGRESS-60 {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%;
+  }
+}
+@-o-keyframes Animate-PROGRESS-60 {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%;
+  }
+}

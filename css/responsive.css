@@ -1,0 +1,77 @@
+@media (min-width: 1400px) {
+  #top-nav {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1399px) {
+  #top-nav {
+    display: none;
+  }
+  #header .header,
+  #header-sub .header {
+    padding-left: 5rem;
+  }
+  /*Education Page*/
+  #header-sub .swiper-container .swiper-title {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 503px) and (max-width: 767px) {
+  #side-nav {
+    display: none;
+  }
+  #header-sub .button-group button {
+    font-size: 1.3rem;
+  }
+  #header-sub .button-group button {
+    padding: 0;
+  }
+  /*Education Page*/
+  #header-sub .swiper-container .swiper-title {
+    font-size: 1.5rem;
+  }
+  #header-sub h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 502px) {
+  #side-nav {
+    display: none;
+  }
+  #header h1 {
+    font-size: 5rem;
+  }
+  #header h2 {
+    font-size: 4rem;
+  }
+  #header h3 {
+    font-size: 1rem;
+  }
+  #header .header .btn {
+    font-size: 1.5rem;
+  }
+  #top-nav .top-logo {
+    display: none;
+  }
+  #top-nav .top-nav {
+    height: 50px;
+  }
+  /*Project Page*/
+  #header-sub .button-group button {
+    font-size: 1.2rem;
+    padding: 0;
+  }
+  #header-sub .grid {
+    padding-left: 7em;
+  }
+  /*Education Page*/
+  #header-sub .swiper-container .swiper-title {
+    font-size: 1.2rem;
+  }
+  #header-sub .swiper-container .swiper-text p {
+    font-size: 1rem;
+  }
+  #header-sub h1 {
+    font-size: 4rem;
+  }
+}

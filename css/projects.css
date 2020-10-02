@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#header-sub .button-group {
+  padding: 3rem 0;
+  border-radius: 0;
+}
+#header-sub .button-group button {
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  outline: none;
+}
+
+#header-sub .button-group button + button {
+  padding-left: 3rem;
+}
+#header-sub .grid .our-project > .title h4 {
+  font: normal 700 20px/12px;
+}
+#header-sub .grid .our-project .img a:hover img {
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+/*Image overlay effect*/
+/* @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css); */
+figure.project-item {
+  font-family: "Raleway", Arial, sans-serif;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  height: 100%;
+  width: 100%;
+  background: #000000;
+  text-align: center;
+}
+figure.project-item * {
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+figure.project-item img {
+  opacity: 0.8;
+  width: 100%;
+}
+figure.project-item p {
+  width: 30%;
+  padding: 0.3rem 0.1rem;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+figure.project-item figcaption {
+  bottom: 0;
+  display: block;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+figure.project-item h2 {
+  font-weight: 400;
+  left: 0;
+  right: 0;
+  letter-spacing: -1px;
+  margin: 0 auto;
+  position: absolute;
+  text-transform: uppercase;
+  bottom: 50%;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+}
+figure.project-item h2 span {
+  font-weight: 800;
+}
+figure.project-item p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 50%;
+  opacity: 0;
+  font-size: 14px;
+  -webkit-transform: translateY(-20%) scale(0.7);
+  transform: translateY(-20%) scale(0.7);
+}
+figure.project-item .square {
+  height: 78px;
+  width: 78px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: "";
+  -webkit-transform: rotate(45deg) translate(-50%, -50%);
+  transform: rotate(45deg) translate(-50%, -50%);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+figure.project-item .square:before,
+figure.project-item .square:after,
+figure.project-item .square div:before,
+figure.project-item .square div:after {
+  background-color: #ffffff;
+  position: absolute;
+  content: "";
+  display: block;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+figure.project-item .square:before,
+figure.project-item .square:after {
+  width: 65%;
+  height: 2px;
+}
+figure.project-item .square div:before,
+figure.project-item .square div:after {
+  width: 2px;
+  height: 65%;
+}
+figure.project-item .square:before,
+figure.project-item .square div:before {
+  left: 0;
+  top: 0;
+}
+figure.project-item .square:after,
+figure.project-item .square div:after {
+  bottom: 0;
+  right: 0;
+}
+figure.project-item a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+figure.project-item:hover img,
+figure.project-item.hover img {
+  opacity: 0.25;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+figure.project-item:hover p {
+  color: firebrick;
+  text-decoration: underline;
+  letter-spacing: 0.2rem;
+}
+figure.project-item:hover h2,
+figure.project-item.hover h2 {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+}
+figure.project-item:hover p,
+figure.project-item.hover p {
+  opacity: 1;
+  -webkit-transform: translateY(0px) scale(1);
+  transform: translateY(0px) scale(1);
+  /* background-color:#c03131;
+  border-radius:50%;
+  color:#000000;
+  width: 100px;
+  height: 100px */
+}
+figure.project-item:hover .square:before,
+figure.project-item.hover .square:before {
+  width: 38%;
+}
+figure.project-item:hover .square div:before,
+figure.project-item.hover .square div:before {
+  height: 38%;
+}
+figure.project-item:hover .square:after,
+figure.project-item.hover .square:after {
+  width: 55%;
+}
+figure.project-item:hover .square div:after,
+figure.project-item.hover .square div:after {
+  height: 55%;
+}
+
+/*End Project*/
