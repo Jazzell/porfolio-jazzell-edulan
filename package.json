@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "dev": "*.html",
+    "build": "*.html --out-dir prod"
+  }
+}
