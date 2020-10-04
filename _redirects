@@ -1,1 +1,6 @@
-/* /index.html 200
+# for root
+/*              /index.html     200
+
+# for the rest
+/about/*        /about.html     200
+/contact/*      /contact.html   200
