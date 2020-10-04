@@ -1,0 +1,4 @@
+{
+  "dev": "src/*.html",
+  "build": "build src/*.html --out-dir prod"
+}
