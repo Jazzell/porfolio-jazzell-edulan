@@ -2,6 +2,9 @@
   #top-nav {
     display: none;
   }
+   /* .solar-syst{
+    display:none;
+  } */
 }
 @media (min-width: 768px) and (max-width: 1399px) {
   #top-nav {
@@ -15,6 +18,14 @@
   #header-sub .swiper-container .swiper-title {
     font-size: 1.5rem;
   }
+   /*Home Page*/
+  #header .frontend {
+    font-size: 5rem;
+  }
+  #header .wordpress {
+    font-size: 5rem;
+  }
+ 
 }
 @media (min-width: 503px) and (max-width: 767px) {
   #side-nav {
@@ -38,6 +49,14 @@
     flex-direction:column;
     justify-content:center;
   }
+   .solar-syst{
+    display:none;
+  }
+   #header .developer, #header .programmer{
+    display:none;
+  }
+ 
+  
 }
 @media (max-width: 502px) {
   #side-nav {
@@ -82,9 +101,25 @@
   #heeader-sub .grid{
     margin-left:-50px;
   }
+   .solar-syst{
+    display:none;
+  }
+   #header .developer, #header .programmer{
+    display:none;
+  }
 }
 @media (min-width: 302px) and (max-width: 503px) {
    #header-sub .grid{
     margin-left:-8.5rem;
+  }
+  #header-sub .button-group button {
+    font-size: 1rem;
+    padding: 0;
+  }
+    .solar-syst{
+    display:none;
+  }
+   #header .developer, #header .programmer{
+    display:none;
   }
 }
