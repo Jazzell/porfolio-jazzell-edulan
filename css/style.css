@@ -29,7 +29,7 @@ html {
 }
 #header {
   /* background: url(../img/banner/banner.png); */
-  background: url(../img/banner/banner.png);
+  background: url('../img/banner/banner.png');
   background-position: top center;
   background-size: cover;
   position: relative;
